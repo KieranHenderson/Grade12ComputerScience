@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="250" maxWidth="250" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="250.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tictactoe.TicTacToeController">
+   <children>
+      <Button layoutX="109.0" layoutY="194.0" mnemonicParsing="false" onAction="#buttonClickHandler" prefHeight="30.0" prefWidth="124.0" styleClass="controls" text="OK" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="16.0" />
+         </font></Button>
+      <Text fill="#fe89a6" layoutX="20.0" layoutY="33.0" strokeType="OUTSIDE" strokeWidth="0.0" text="WARNING!" wrappingWidth="230.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="38.0" />
+         </font></Text>
+      <Text fill="#fe89a6" layoutX="10.0" layoutY="78.0" strokeType="OUTSIDE" strokeWidth="0.0" text="The hard difficulty must be played on a 3x3 grid, for more direction view the Controls menu under Directions" wrappingWidth="230.0">
+         <font>
+            <Font name="Bank Gothic Medium BT" size="18.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

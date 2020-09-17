@@ -1,0 +1,44 @@
+/* application is a CSS file that would be in charge of the styles of the FXML elements and loads the custom text font */
+/* Kieran Henderson */
+/* 6/7/20 */
+
+/*My project is a recreation the classic arcade game asteroids from 1979, 
+*there are some aspects of the game that may not be exactly how the original game worked as I have never played the original game but I did my best to include everything I found during research 
+* a more in depth description can be found at the bottom of the extras text file
+*/
+
+.rootPane{
+
+}
+
+@font-face{
+	src: url("/KieranHendersonAsteroids/src/fonts/Vectorb.ttf");
+}
+
+.text { 
+	-fx-font-family: "Vector Battle";
+	-fx-font-size: 30;
+	-fx-text-fill: white;
+}
+
+#controls{
+	-fx-font-size: 16;
+}
+
+#title{
+	-fx-font-family: "Vector Battle";
+	-fx-font-size: 100;
+	-fx-text-fill: white;
+}
+
+.hyperlink{
+	-fx-text-fill: white;
+	-fx-focus-color: transparent;
+	-fx-underline: false;
+}
+
+.hyperlink:hover{
+	-fx-text-fill: red;
+	-fx-focus-color: transparent;
+	-fx-underline: false;
+}

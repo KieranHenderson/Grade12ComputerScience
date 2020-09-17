@@ -1,0 +1,27 @@
+Here is a file contaning the main extras that I did throughout the project in order from hardest to easiest
+1. Change the scenes using a fade transition on the same stage
+2. Randomly generate a polygon using a convex wrapping hull
+3. Using an interface to help load controllers 
+4. Point/line collision
+5. Use radians to change the direction the player is faceing 
+6. 2D animations of the fire 
+7. Shooting in a specific direction
+8. Auto aim for the small enemy 
+9. Using custom fonts 
+10. Screen wrap around with asteroids
+11. Using a do while loop instead of a while loop
+12. Using a single for loop that has 2 variables 
+13. life timer for some objects such as the debris 
+14. Display text from a file on the game canvas 
+15. Using a hash map
+16. Sound
+17. Paint gc a color instead of a image 
+18. Change the style of the game stage/window
+
+A little more information on how my game works
+The objective of the game is to shoot the enemy flying saucers and the asteroids to gain points while also staying a alive
+The asteroids spawn as large ones at the start of each level and break into two medium ones when shot which move slightly faster
+and the medium ones break into 2 small ones when shot which move even faster.
+There are two types of enemy flying saucers a small one and a large one, the movement for both are randomized, however the small flying saucers shoot directly towards the player and gradually starts to increase in likelyhood of appearing based on score starting with a 0 percent chance at 0 points and a 100% chance at 40,000 points. 
+The player starts with 3 lives but gains an extra life every 10,000 points they gain.
+If the player gets a new highscore on the death screen it displays new high score and the user is asked for three letters to represent them on the leaderboard, if the score is a top score but not the highest score then new top score is displayed and the user is asked for three letters to represent them on the leaderboard, if the user does not get a top score at all the game displays game over and continue.

@@ -1,0 +1,106 @@
+.boarderPane{
+	-fx-background-color: rgb(169,169,169);
+}
+
+.textField{
+	-fx-background-color: rgb(255,255,255);
+	-fx-background-radius: 30;
+}
+.digit{
+	-fx-background-color: rgb(192,192,192);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.digit:hover{
+	-fx-background-color: rgb(180,180,180);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.digit:pressed{
+	-fx-background-color: rgb(169,169,169);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.digit:focused{
+	-fx-font-size:24;
+}
+
+.clear{
+	-fx-background-color: rgb(255,128,0);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.clear:hover{
+	-fx-background-color: rgb(255,118,0);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.clear:pressed{
+	-fx-background-color: rgb(255,108,0);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.clear:focused{
+	-fx-font-size:24;
+}
+
+.operations{
+	-fx-background-color: rgb(128,128,128);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+}
+
+.operations:hover{
+	-fx-background-color: rgb(118,118,118);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.operations:pressed{
+	-fx-background-color: rgb(108,108,108);
+	-fx-background-radius: 30;
+	-fx-padding: 0 0 0 0;
+	-fx-background-insets: 1,1,1,1;
+	-fx-text-fill: white;
+	-fx-font-weight: bold;
+	-fx-font-size:24;
+}
+
+.operations:focused{
+	-fx-font-size:24;
+}

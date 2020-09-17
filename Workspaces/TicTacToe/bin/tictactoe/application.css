@@ -1,0 +1,117 @@
+/* application css is a css class that is in charge of storing all the styles for the fxml objects to state how they should look*/
+/* Kieran Henderson */
+/* 4/15/20 */
+.button{ /* the basic css for all the buttons */
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-background-radius: 100;
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #e5e5e5, #ffffff); 
+	-fx-font-weight: bold;
+	-fx-text-fill: rgb(254,137,166);
+	-fx-font-family: "BankGothic Md BT";
+	}
+
+/* The css for when a button is being hovered */
+.button:hover{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffdae9, #ffffff); 
+}
+	
+/* css for when a button is pressed */
+.button:pressed {
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffcee2, #ffffff); 
+}
+	
+/* css for the winning combination */
+.winning-button{
+	-fx-background-color:linear-gradient(from 40% 40% to 100% 100%, rgb(254,137,166), #fadadd);
+	-fx-text-fill: white;
+}
+
+/* css for the difficulty button on the home page */
+.difficultyButton{
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 18;
+	-fx-text-fill: rgb(254,137,166);
+}
+
+/* css for when a difficulty button is hovered */
+.difficultyButton:hover{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffdae9, #ffffff); 
+}
+
+/* css style for when the difficulty button is pressed */
+.difficultyButton:pressed{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffcee2, #ffffff); 
+}
+
+/* css for the basic player size button style */
+.playerSizeButton{
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 17;
+	-fx-text-fill: rgb(254,137,166);
+	-fx-font-family: "BankGothic Md BT";
+}
+
+/* css for when the player size buttons are hovered  */
+.playerSizeButton:hover{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffdae9, #ffffff); 
+}
+
+/* css for when the play size button gets pressed */
+.playerSizeButton:pressed{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffcee2, #ffffff); 
+}
+
+/* for the default arrow buttons */
+.arrows{
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 28;
+	-fx-text-fill: rgb(254,137,166);
+}
+
+/* css for when the arrows are hovered */
+.arrows:hover{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffdae9, #ffffff); 
+}
+
+/* css for when thearrows are pressed */
+.arrows:pressed{
+	-fx-background-color: linear-gradient(from 75% 75% to 100% 100%, #ffcee2, #ffffff); 
+}
+
+/* css for the score text */
+#score{
+	-fx-font-family: "BankGothic Md BT";
+	-fx-font-size: 50;
+	-fx-fill: rgb(254,137,166);
+}
+
+/* css for the grid size text */
+.gridSize{
+	-fx-font-family: "BankGothic Md BT";
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 60;
+	-fx-text-fill: rgb(254,137,166);	
+}
+
+/* css for the title text */
+.title{
+	-fx-font-family: "BankGothic Md BT";
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 80;
+	-fx-text-fill: rgb(254,137,166);	
+}
+
+/* css for the controls text */
+.controls{
+	-fx-font-family: "BankGothic Md BT";
+	-fx-focus-color: transparent;
+	-fx-background-insets: -1,0,1,1;
+	-fx-font-size: 17;
+	-fx-text-fill: rgb(254,137,166);
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- High scores is an FXML file that holds the data to create the size, stage and scene of the death screen using a canvas and anchor pane and hyper links -->
+<!-- Kieran Henderson --> 
+<!-- 6/7/20 -->
+<!-- My project is a recreation the classic arcade game asteroids from 1979, 
+there are some aspects of the game that may not be exactly how the original game worked as I have never played the original game but I did my best to include everything I found during research
+a more in depth description can be found at the bottom of the extras text file-->
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="675.0" prefWidth="1000.0" stylesheets="@application.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="asteroids.HighscoresController">
+   <children>
+      <Canvas fx:id="gameCanvas" height="675.0" width="1000.0" />
+      <Hyperlink fx:id="BackBtn" layoutX="471.0" layoutY="563.0" onAction="#hyperlinkClickHandler" text="BACK" AnchorPane.bottomAnchor="40.0" AnchorPane.rightAnchor="453.0" />
+   </children>
+</AnchorPane>
